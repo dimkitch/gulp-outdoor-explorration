@@ -1,0 +1,29 @@
+.footer-newsletter {
+    color: aqua;
+    // .footer-newsletter__name
+&__name {
+    text-transform: uppercase;
+}
+// .footer-newsletter__comment
+&__comment {
+    margin-bottom: 9px;
+}
+// .footer-newsletter__field
+&__field {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 458px;
+    max-height: 53px;
+    background-color: $color-simple-light;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 21px;
+    padding-right: 7px;
+    border-radius: 8px;
+    border: 1px solid $color-secondary-medium;
+    @media (max-width:$breakpoint-mob) {
+        justify-content: center;
+    }
+}
+}

@@ -1,0 +1,25 @@
+html {
+  color: $color-secondary-deep;
+  height: 100%;
+  background-color: $color-light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-main;
+  font-size: $font-size-main-text;
+  line-height: 140%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-title;
+}

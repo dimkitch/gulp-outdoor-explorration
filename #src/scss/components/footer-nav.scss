@@ -1,0 +1,12 @@
+.footer-nav {
+  &__name {
+    text-transform: uppercase;
+    margin-bottom: 9px;
+  }
+  //   .footer-nav__list-item
+  &__list-item {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+}

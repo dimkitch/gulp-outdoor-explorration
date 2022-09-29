@@ -1,0 +1,24 @@
+.social {
+    display: flex;
+    // .social__item
+    &__item {
+        display: inline-block;
+        &:not(:last-child){
+            margin-right:20px; 
+        }
+    }
+
+    // .social__icon
+    &__icon {
+    width: 24px;
+    height: 24px;
+    fill: $color-light;
+    transition: $transition-mod;
+    &:hover {
+        fill: $color-warning;
+    }
+    @media (max-width:$breakpoint-mob) {
+        margin-top: 20px;
+    }
+    }
+}

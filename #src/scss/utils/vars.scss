@@ -1,0 +1,35 @@
+/* Vars:
+  ========================================================================== */
+
+// Font
+$font-main: 'Poppins', 'sans-serif';
+$font-size-main-text: 16px;
+$font-title: 'Roboto';
+
+//Color
+
+$color-light: #ffffff;
+$color-simple-light:#F9FAFB;
+$color-secondary: #caccd1;
+$color-secondary-light: #e5e5e5;
+$color-secondary-medium:#E5E7EB;
+$color-secondary-light-sky:#FAFAFC;
+$color-secondary-deep: #575445;
+$color-secondary-dark: #444444;
+$color-secondary-deep-coal:#292C32;
+$color-warning: #e6b939;
+$color-succes:#375C58;
+// other
+$transition-mod: all 0.3s ease;
+
+// breakpoints
+
+$breakpoint-desktop-md: 1280px;
+$breakpoint-tablet: 1024px;
+$breakpoint-tablet-md: 767px;
+$breakpoint-mob: 575px;
+
+$container-max-width-desktop-md: 990px;
+$container-max-width-tablet: 750px;
+$container-max-width-tablet-md: 550px;
+$container-max-width-mob: 300px;

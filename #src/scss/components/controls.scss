@@ -1,0 +1,49 @@
+.custom-btn {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: $transition-mod;
+  border-radius: 6px;
+  padding: 10px 12px;
+  // Стили кнопок
+  // .custom-btn--secondary-deep;
+  &--secondary-deep {
+    background-color: $color-secondary-deep;
+    color: $color-light;
+  }
+  // .custom-btn--light;
+&--light {
+  background-color: $color-light;
+  color: $color-secondary-deep;
+}
+  //Размеры кнопок
+  // .custom-btn--md
+  &--md {
+    max-height: 44px;
+    max-width: 125px;
+  }
+  // .custom-btn--nr
+  &--nr {
+    padding: 10px 18px;
+  }
+  // .custom-btn--sm
+  &--sm {
+    padding: 10px 12px;
+
+  }
+}
+
+.custom-link {
+  justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.custom-icon-arrow {
+  width: 20px;
+  height: 20px;
+  padding-left: 4px;
+}

@@ -1,0 +1,33 @@
+.footer {
+  background-color: $color-secondary-deep;
+  padding: 100px 16px;
+  // .footer__logo
+  &__logo {
+    margin: 0 auto;
+  }
+  &__inner{
+    gap: 16px;
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns:(19% 19% 19% auto);
+    @media (max-width:$breakpoint-tablet) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width:$breakpoint-tablet-md){
+      grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width:$breakpoint-mob) {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  }
+  // .footer__copyright
+  &__copyright {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width:$breakpoint-mob) {
+      display: block;
+    }
+  }
+}

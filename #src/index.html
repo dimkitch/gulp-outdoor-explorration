@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOC</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+     @@include('./components/_header.html') 
+    <div class="wrapper" id="wrapper">
+      @@include('./components/_svg_incloud.html')
+
+      <div class="wrapper__content">
+        <main class="page-main">
+          <div class="page-main__intro">
+            @@include('./components/_intro.html')
+          </div>
+          <div class="page-main__who-are">
+            @@include('./components/_read-more.html',{img:"./img/read-more/1.png",subtitle:"Who are we?",title:"A bit about us.",comment:"We are an outdoor gear company focused on Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et."})
+          </div>
+          <div class="page-main__our-promise">
+            @@include('./components/_our-promise.html')
+          </div>
+          <div class="page-main__meet-family">
+            @@include('./components/_meet-family.html')
+          </div>
+          <div class="page-main__shop">
+            @@include('./components/_shop.html')
+          </div>
+          <div class="page-main__light-reading">
+            @@include('./components/_read-more.html',{img:"./img/read-more/2.png",subtitle:"Some light reading",title:"Subscribe to our magazine today.",comment:"We are an outdoor gear company focused on Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et."})
+          </div>
+          <div class="page-main__buyers-guides">
+            @@include('./components/_buyers-guides.html')
+          </div>
+        </main>
+      </div>
+      @@include('./components/_footer.html')
+    </div>
+   
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

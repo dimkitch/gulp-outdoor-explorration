@@ -1,0 +1,48 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url('../fonts/#{$file_name}.woff') format('woff'),
+      url('../fonts/#{$file_name}.woff2') format('woff2');
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+
+// libs
+@import './utils/libs';
+
+// utils
+@import './utils/fonts';
+@import './utils/reset';
+@import './utils/anim';
+@import './utils/mixins';
+@import './utils/vars';
+@import './utils/container';
+@import './utils/font-styles';
+@import './components/controls';
+@import './components/main';
+@import './components/header';
+@import './components/btn-less';
+@import './components/custom-select';
+@import './components/pages';
+@import './components/intro';
+@import './components/read-more';
+@import './components/header-block';
+@import './components/meet-family';
+@import './components/meet-family-card';
+@import './components/link-item';
+@import './components/our-promise';
+@import './components/our-promise-card';
+@import './components/shop';
+@import './components/shop-previous';
+@import './components/buyers-guides';
+@import './components/buyers-guides-card';
+@import './components/social';
+@import './components/footer';
+@import './components/footer-nav';
+@import './components/footer-newsletter';
+@import './components/exercise';
+// UI
+
+// components

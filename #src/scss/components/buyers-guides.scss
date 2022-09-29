@@ -1,0 +1,13 @@
+.buyers-guides {
+    // .buyers-guides__inner
+    &__inner{
+        margin-bottom: 26px;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        @media (max-width:$breakpoint-tablet-md){
+            grid-template-columns: 1fr;
+        }
+    }
+}

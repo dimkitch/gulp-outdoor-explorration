@@ -1,0 +1,15 @@
+.header-block {
+  display: inline-flex;
+  //   .header-block__content
+  &__content {
+    max-width: 538px;
+  }
+// .header-block__subtitle
+&__subtitle {
+  text-transform: uppercase;
+}
+  //   .header-block__title
+  &__title {
+    margin-bottom: 8px;
+  }
+}

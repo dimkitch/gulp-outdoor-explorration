@@ -1,0 +1,10 @@
+.link-item {
+    display: inline-flex;
+    align-items: center;
+    // .link-item__icon
+    &__icon {
+        width: 20px;
+        height: 10px;
+        padding-left: 4px;
+    }
+}

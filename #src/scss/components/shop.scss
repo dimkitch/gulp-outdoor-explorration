@@ -1,0 +1,36 @@
+.shop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    min-height: 393px;
+    background-image: url(../img/shop/2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: $color-succes;
+
+    // .shop__content
+    &__content {
+        padding: 100px 0;
+    margin: 0 auto;
+    max-width: 538px;
+    }
+    // .shop__subtitle
+    &__subtitle {
+    }
+    // .shop__title
+    &__title {
+        margin-bottom: 7px;
+    }
+    // .shop__comment
+    &__comment {
+        margin-bottom: 21px;
+    }
+    // .shop__link
+    &__link {
+        display: inline-block;
+        border-radius: 6px;
+    }
+}

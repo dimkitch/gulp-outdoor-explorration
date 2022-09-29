@@ -1,0 +1,89 @@
+// xl,lg,md,nr,sm,xsm
+// Размеры заголовков
+
+.title {
+  // .title-xl
+  &-xl {
+    font-size: 48px;
+    line-height: 120%;
+  }
+  //   .title-lg
+  &-lg {
+    font-size: 36px;
+    line-height: 120%;
+  }
+  // .title-md
+  &-md { 
+    font-size: 28px;
+    line-height: 120%;
+  }
+  // .title-nr
+  &-nr {
+    font-size: 20px;
+    line-height: 120%;
+  }
+}
+
+.text {
+  // .text-xl
+  &-xl {
+    font-size: 17px;
+    line-height: 148%;
+  }
+
+  // .text-lg
+  &-lg {
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  //   .text-md
+  &-md {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  // .text-nr
+  &-nr {
+    font-size: 13px;
+    line-height: 108%;
+  }
+  // .text-sm
+  &-sm {
+    font-size: 12px ;
+    line-height: 100%;
+  }
+}
+
+//Цвет текста
+.color {
+  // .color-secondary-dark
+  &-secondary-dark {
+    color: $color-secondary-dark;
+  }
+  // .color-light
+  &-light {
+    color: $color-light;
+  }
+  // .color-warning
+  &-warning {
+    color: $color-warning;
+  }
+  // .color-secondary
+  &-secondary {
+    color: $color-secondary;
+  }
+  // .color-secondary-deep
+  &-secondary-deep {
+    color: $color-secondary-deep;
+  }
+}
+//Хэлперы
+.bold {
+  font-weight: 700;
+}
+.font {
+  // .font-roboto
+  &-roboto {
+    font-family: 'Roboto';
+  }
+}

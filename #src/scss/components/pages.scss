@@ -1,0 +1,32 @@
+.page-main {
+    // .page-main__intro
+    &__intro{ 
+    }
+    // .page-main__who-are
+    &__who-are {
+        overflow: hidden;
+        padding: 100px 0;
+    }
+    // .page-main__our-promise
+    &__our-promise{
+        overflow: hidden;
+        background-color: $color-secondary-light-sky;
+        padding: 100px 0;
+    }
+    // .page-main__meet-family
+    &__meet-family {
+        padding: 100px 0;
+    }
+    // .page-main__shop
+    &__shop {
+        padding: 100px 0;
+    }
+    // .page-main__light-reading
+    &__light-reading{
+        padding: 100px 0;
+    }
+    // .page-main__buyers-guides
+    &__buyers-guides {
+        margin:100px 0;
+    }
+}

@@ -1,0 +1,33 @@
+.our-promise {
+    text-align: center;
+    position: relative;
+    // .our-promise-top
+    &-top {
+    position: absolute;
+    top: -140px;
+    right: 0;
+    }
+    // .our-promise-bottom
+    &-bottom {
+        position: absolute;
+        bottom: -167px;
+        left: 0;
+    }
+
+    // .our-promise__cards
+    &__cards {
+        padding-top: 71px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 102px;
+        @media (max-width:$breakpoint-tablet-md) {
+        grid-template-columns: 1fr 1fr;
+        gap: 51px;
+        }
+        @media (max-width:$breakpoint-mob) {
+grid-template-columns: 1fr;
+gap: 25px;
+
+        }
+    }
+}

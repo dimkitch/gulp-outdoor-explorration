@@ -1,0 +1,33 @@
+.meet-family-card {
+  width: 100%;
+  max-width: 379px;
+  min-height: 473px;
+  height: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-right: 58px;
+  padding-left: 58px;
+  
+  //   .meet-family-card__inner
+  &__inner {
+    justify-content: center;
+    text-align: center;
+    max-width: 291px;
+    padding-top: 39px;
+  }
+
+  // .meet-family-card__title
+  &__title {
+    margin-bottom: 9px;
+  }
+
+  // .meet-family-card__comment
+  &__comment {
+    margin-bottom: 20px;
+  }
+
+}
