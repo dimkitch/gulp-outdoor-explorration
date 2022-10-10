@@ -5,7 +5,7 @@
     "start": "gulp",
     "build": "gulp build"
   },
-  "author": "ar69tem",
+  "author": "dimkitch",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
